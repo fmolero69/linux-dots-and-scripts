@@ -1,11 +1,12 @@
 
 
-```markdown
+markdown
 # 🐧 Arch Linux Dotfiles & Scripts Collection
 
 **Repositorio personalizado** con configuraciones, scripts y herramientas para optimizar y 
 proteger sistemas Arch Linux. Ideal para sysadmins y entusiastas de la personalización.
 
+```
 ## 🗂️ Estructura del Repositorio
  linux-dots-and-scripts
 ├──  docs
@@ -16,7 +17,7 @@ proteger sistemas Arch Linux. Ideal para sysadmins y entusiastas de la personali
     └──  ufw-config-rules
 
 ```
-```
+
 
 ## ✨ Características Clave
 - **🔥 Bash Optimizado**: Aliases y funciones para aumentar productividad.
