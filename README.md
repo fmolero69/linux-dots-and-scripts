@@ -6,7 +6,8 @@
 ![GitHub License](https://img.shields.io/badge/license-GPL--3.0-blue)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/fmolero69/linux-dots-and-scripts)
 
-**Repositorio personalizado** con configuraciones, scripts y herramientas para optimizar y proteger sistemas Arch Linux. Ideal para sysadmins y entusiastas de la personalización.
+**Repositorio personalizado** con configuraciones, scripts y herramientas para optimizar y 
+proteger sistemas Arch Linux. Ideal para sysadmins y entusiastas de la personalización.
 
 ## 🗂️ Estructura del Repositorio
  linux-dots-and-scripts
@@ -24,7 +25,8 @@
 - **🔥 Bash Optimizado**: Aliases y funciones para aumentar productividad.
 - **🛡️ Seguridad con UFW**: Scripts para aplicar reglas de firewall preconfiguradas.
 - **📦 Modular**: Fácil de extender con nuevos scripts o configuraciones.
-- **♻️ Portabilidad**: Compatible con sistemas basados en Arch Linux (y adaptables a otras distros).
+- **♻️ Portabilidad**: Compatible con sistemas basados en Arch Linux 
+(y adaptables a otras distros).
 
 ## 🚀 Instalación Rápida
 1. Clona el repositorio:
