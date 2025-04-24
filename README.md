@@ -3,9 +3,6 @@
 ```markdown
 # 🐧 Arch Linux Dotfiles & Scripts Collection
 
-![GitHub License](https://img.shields.io/badge/license-GPL--3.0-blue)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/fmolero69/linux-dots-and-scripts)
-
 **Repositorio personalizado** con configuraciones, scripts y herramientas para optimizar y 
 proteger sistemas Arch Linux. Ideal para sysadmins y entusiastas de la personalización.
 
