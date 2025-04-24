@@ -1,0 +1,18 @@
+#!/bin/bash
+## Alias:
+    alias buscar="pacman -Ss "
+    alias instalar="sudo pacman -S "
+    alias desinstalar="sudo pacman -Rscc "
+    alias db_postgres_conexion="sudo -i -u postgres psql"
+    alias sincronizar="ping 8.8.8.8"
+
+# Visualizar ficheros y directorios
+    function cdls { cd "$@"; lsd; }
+    alias cd="cdls"
+    alias cp='cp -av'
+    alias ff='fc-list | grep '
+    alias ls='lsd'
+    alias cat='bat'
+    alias fca='fc-cache -fv'
+    alias gitc='git clone'
+	alias ltree='lsd --tree --depth=2'
