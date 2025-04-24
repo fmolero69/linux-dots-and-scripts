@@ -1,6 +1,4 @@
-Aquí tienes una plantilla profesional y llamativa para tu `README.md`, diseñada para destacar la organización y utilidad de tu repositorio. Adapta los textos con tus detalles personales:
 
----
 
 ```markdown
 # 🐧 Arch Linux Dotfiles & Scripts Collection
@@ -12,18 +10,15 @@ Aquí tienes una plantilla profesional y llamativa para tu `README.md`, diseñad
 
 ## 🗂️ Estructura del Repositorio
 ```
-📁 linux-dots-and-scripts/
-├── 📂 docs/                  # Documentación técnica y guías
-├── 📂 dotfiles/              # Archivos de configuración (.config, .bashrc, etc.)
-└── 📂 scripts/               # Scripts de automatización y seguridad
-    ├── 📂 bash/              # Aliases, funciones y personalización de Bash
-    │   ├── 📂 bash_aliases_functions/
-    │   │   ├── 📄 aliases    # Aliases frecuentes
-    │   │   └── 📄 functions  # Funciones personalizadas
-    │   └── 📄 bashrc         # Configuración global de Bash
-    └── 📂 ufw-config-rules/   # Reglas de firewall (UFW)
-        ├── 📄 aplicar_ufw.sh  # Script para aplicar reglas
-        └── 📄 reglas_ufw_seguras.txt  # Reglas predefinidas
+
+ linux-dots-and-scripts
+├──  docs
+├──  dotfiles
+├──  README.md
+└──  scripts
+    ├──  bash
+    └──  ufw-config-rules
+
 ```
 
 ## ✨ Características Clave
@@ -56,7 +51,3 @@ Este proyecto está bajo [GPL-3.0](LICENSE). ¡Usa, modifica y comparte libremen
 ```
 
 ---
-
-
-
-Con este formato, tu repositorio transmitirá **profesionalismo y utilidad**. ¡Actualízalo conforme añadas nuevas funcionalidades! 😎
