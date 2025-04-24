@@ -1,0 +1,41 @@
+#############################################
+# REGLAS UFW ROBUSTAS PARA ARCH LINUX       #
+# (Aplicar manualmente con 'sudo ufw ...')  #
+#############################################
+
+### 🔧 CONFIGURACIÓN BÁSICA ###
+sudo ufw default deny incoming  # Deniega todo el tráfico entrante
+sudo ufw default allow outgoing # Permite todo el tráfico saliente
+
+### 🔐 PROTECCIÓN SSH ###
+sudo ufw limit 22/tcp           # SSH con protección anti-bruteforce
+# sudo ufw allow 2222/tcp       # Alternativa si usas puerto SSH personalizado
+
+### 🌐 ACCESO WEB ###
+sudo ufw allow 80/tcp           # HTTP
+sudo ufw allow 443/tcp          # HTTPS
+
+### 🛡️ PROTECCIÓN RED ###
+sudo ufw allow out 53/udp       # DNS saliente
+sudo ufw allow in proto icmp    # Ping (ICMP)
+
+### 🏠 ACCESO LOCAL (OPCIONAL) ###
+sudo ufw allow from 192.168.1.0/24  # Permite red local
+
+### ⚠️ BLOQUEO DE PUERTOS PELIGROSOS ###
+sudo ufw deny 23/tcp            # Telnet
+sudo ufw deny 137:139/tcp       # NetBIOS
+sudo ufw deny 445/tcp           # SMB
+sudo ufw deny 3389/tcp          # RDP (Windows)
+
+### 🚫 BLOQUEO DE IPS MALICIOSAS ###
+# sudo ufw deny from 123.123.123.123  # Ejemplo: IP maliciosa
+
+### 🎮 SERVICIOS ESPECÍFICOS (OPCIONAL) ###
+# sudo ufw allow 32400/tcp       # Plex Media Server
+# sudo ufw allow 51820/udp       # WireGuard VPN
+# sudo ufw allow 25565/tcp       # Minecraft Server
+
+### ✅ ACTIVAR FIREWALL ###
+sudo ufw enable
+sudo ufw status verbose          # Verificar configuración
