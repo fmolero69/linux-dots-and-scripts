@@ -41,8 +41,5 @@ proteger sistemas Arch Linux. Ideal para sysadmins y entusiastas de la personali
 ## 📜 Licencia
 Este proyecto está bajo [GPL-3.0](LICENSE). ¡Usa, modifica y comparte libremente!
 
----
-
-
 > ✍️ **Autor**: [fmolero69](https://github.com/fmolero69) 
 
