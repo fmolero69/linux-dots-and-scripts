@@ -47,6 +47,4 @@ Este proyecto está bajo [GPL-3.0](LICENSE). ¡Usa, modifica y comparte libremen
 
 
 > ✍️ **Autor**: [fmolero69](https://github.com/fmolero69) 
-```
 
----
