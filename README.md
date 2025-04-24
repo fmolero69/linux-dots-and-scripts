@@ -1,6 +1,4 @@
 
-
-markdown
 # 🐧 Arch Linux Dotfiles & Scripts Collection
 
 **Repositorio personalizado** con configuraciones, scripts y herramientas para optimizar y 
